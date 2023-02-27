@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_sheet_dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:text="分享"-->
+    <!--        android:textSize="25sp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:textColor="@color/black"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/bottom_share_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/qq"
+            android:scaleType="center"
+            android:text="QQ"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/bottom_share_qzone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/qqspace"
+            android:scaleType="center"
+            android:text="QQ空间"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/bottom_share_wechat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/wechat"
+            android:scaleType="center"
+            android:text="微信"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/bottom_share_wxcircle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@drawable/friendscircle"
+            android:scaleType="center"
+            android:text="朋友圈"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/bottom_share_sina"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:textColor="#666666"-->
+    <!--        android:background="@null"-->
+    <!--        android:drawableTop="@drawable/microblog"-->
+    <!--        android:scaleType="center"-->
+    <!--        android:text="微博"-->
+    <!--        android:visibility="gone"/>-->
+    <TextView
+        android:id="@+id/version_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_share_cancel"
+        android:gravity="center"
+        android:text="取 消"
+        android:textSize="18sp" />
+
+</LinearLayout>

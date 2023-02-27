@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Weather" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5AFAA5</item>
+        <item name="colorPrimaryDark">#5AFAA5</item>
+        <item name="colorAccent">@color/color_1DE5FD</item>
+        <!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+        <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--        <item name="colorPrimaryVariant"></item>-->
+        <!--        <item name="colorOnPrimary">@color/white</item>-->
+        <!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+        <!--        <item name="colorSecondary">@color/teal_200</item>-->
+        <!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+        <!--        <item name="colorOnSecondary">@color/black</item>-->
+        <!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <declare-styleable name="SunAnimationView">
+        <attr name="sun_circle_color" format="color"/>
+        <attr name="sun_font_color" format="color"/>
+        <attr name="sun_font_size" format="dimension"/>
+        <attr name="sun_circle_radius" format="integer"/>
+        <attr name="type" format="boolean"/>
+    </declare-styleable>
+</resources>
